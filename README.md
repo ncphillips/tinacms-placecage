@@ -6,30 +6,26 @@ Provides a [TinaCMS](https://tinacms.org) MediaStore for www.placecage.com
 
 ![](https://raw.githubusercontent.com/ncphillips/tinacms-placecage/master/placecage-in-action.png)
 
-## Local Development
+## Usage
 
-Below is a list of commands you will probably find useful.
+Install
 
-### `npm start` or `yarn start`
+```bash
+yarn add tinacms-placecage
+```
 
-Runs the project in development/watch mode. Your project will be rebuilt upon changes. TSDX has a special logger for you convenience. Error messages are pretty printed and formatted for compatibility VS Code's Problems tab.
+Add it to your CMS
 
-<img src="https://user-images.githubusercontent.com/4060187/52168303-574d3a00-26f6-11e9-9f3b-71dbec9ebfcb.gif" width="600" />
+```js
+import { PlacecageMediaStore } from 'tinacms-placecage'
 
-Your library will be rebuilt if you make edits.
+new TinaCMS({
+  media: new PlacecageMediaStore(),
+})
+```
 
-### `npm run build` or `yarn build`
+## FAQ
 
-Bundles the package to the `dist` folder.
-The package is optimized and bundled with Rollup into multiple formats (CommonJS, UMD, and ES Module).
+> Can I use this with my existing media store?
 
-<img src="https://user-images.githubusercontent.com/4060187/52168322-a98e5b00-26f6-11e9-8cf6-222d716b75ef.gif" width="600" />
-
-### `npm test` or `yarn test`
-
-Runs the test watcher (Jest) in an interactive mode.
-By default, runs tests related to files changed since the last commit.
-
-## Thanks!
-
-This project was bootstrapped with [TSDX](https://github.com/jaredpalmer/tsdx).
+Why would you want any other pictures?
