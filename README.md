@@ -1,6 +1,6 @@
-# TSDX Bootstrap
+# tinacms-placecage
 
-This project was bootstrapped with [TSDX](https://github.com/jaredpalmer/tsdx).
+Provides a [TinaCMS](https://tinacms.org) MediaStore for www.placecage.com
 
 ## Local Development
 
@@ -25,3 +25,7 @@ The package is optimized and bundled with Rollup into multiple formats (CommonJS
 
 Runs the test watcher (Jest) in an interactive mode.
 By default, runs tests related to files changed since the last commit.
+
+## Thanks!
+
+This project was bootstrapped with [TSDX](https://github.com/jaredpalmer/tsdx).
