@@ -1125,10 +1125,10 @@
   dependencies:
     type-detect "4.0.8"
 
-"@tinacms/core@^0.29.0":
-  version "0.29.0"
-  resolved "https://registry.yarnpkg.com/@tinacms/core/-/core-0.29.0.tgz#d5af121051fc0740287c6aba2d3538bcc93e3e0e"
-  integrity sha512-v0kKuIiuQbw19SgdQgL1qUjiQ3+NiR2v/2lznadd/ckYP5PtYE4w0k7mW9ULh2wsiiGo/OD3Cwv/dNSQxcg0Zg==
+"@tinacms/core@^0.31.0-alpha.3":
+  version "0.31.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@tinacms/core/-/core-0.31.0-alpha.3.tgz#15b6128be48520416319e88d10570a9da9e2ba93"
+  integrity sha512-x4GhqqWk7eV98qQeus0AgQ5IwqLd/mjFhnj41ePLaEfJm1yX00I00D/u6NkJQq1zp81GabdzDBySsqx2zWJvaA==
 
 "@types/babel__core@^7.1.7":
   version "7.1.9"
@@ -4688,6 +4688,11 @@ prettier@^1.19.1:
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
+
+prettier@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.2.tgz#3050700dae2e4c8b67c4c3f666cdb8af405e1ce5"
+  integrity sha512-16c7K+x4qVlJg9rEbXl7HEGmQyZlG4R9AgP+oHKRMsMsuk8s+ATStlf1NpDqyBI1HpVyfjLOeMhH2LvuNvV5Vg==
 
 pretty-format@^25.2.1, pretty-format@^25.5.0:
   version "25.5.0"
