@@ -1,5 +1,7 @@
 # tinacms-placecage
 
+Add the **One True God** to your website _today!_
+
 Provides a [TinaCMS](https://tinacms.org) MediaStore for www.placecage.com
 
 ![](https://raw.githubusercontent.com/ncphillips/tinacms-placecage/master/placecage-in-action.png)
