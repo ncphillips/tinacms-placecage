@@ -2,6 +2,8 @@
 
 Provides a [TinaCMS](https://tinacms.org) MediaStore for www.placecage.com
 
+![](https://raw.githubusercontent.com/ncphillips/tinacms-placecage/master/placecage-in-action.png)
+
 ## Local Development
 
 Below is a list of commands you will probably find useful.
