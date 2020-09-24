@@ -45,7 +45,7 @@ function generateCage({
   count?: number
   maxDim: number
 }): Media[] {
-  return [...new Array(count)].map((x, i) => {
+  return [...new Array(count)].map(() => {
     const config: any = []
 
     const type = getType()
